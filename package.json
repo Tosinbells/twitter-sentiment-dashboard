@@ -1,9 +1,9 @@
 {
   "name": "twitter-sentiment-dashboard",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -28,5 +28,11 @@
   "bugs": {
     "url": "https://github.com/Tosinbells/twitter-sentiment-dashboard/issues"
   },
-  "homepage": "https://github.com/Tosinbells/twitter-sentiment-dashboard#readme"
+  "homepage": "https://github.com/Tosinbells/twitter-sentiment-dashboard#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "description": ""
 }
